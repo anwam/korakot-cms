@@ -113,3 +113,7 @@ exports
 dist
 build
 .strapi-updater.json
+server.crt
+server.key
+LightsailDefaultKey-ap-southeast-1.pem
+.yarn
