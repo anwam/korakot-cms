@@ -117,3 +117,4 @@ server.crt
 server.key
 LightsailDefaultKey-ap-southeast-1.pem
 .yarn
+certbot/*
