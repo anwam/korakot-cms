@@ -49,7 +49,7 @@
     "plate_number": {
       "type": "string"
     },
-    "description": {
+    "description_md": {
       "type": "richtext"
     },
     "slug": {
@@ -91,6 +91,13 @@
         "diesel",
         "electric"
       ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
