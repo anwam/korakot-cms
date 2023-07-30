@@ -98,6 +98,12 @@
     "featured": {
       "type": "boolean",
       "default": false
+    },
+    "color": {
+      "type": "string"
+    },
+    "installment_amount": {
+      "type": "decimal"
     }
   }
 }
