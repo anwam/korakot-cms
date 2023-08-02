@@ -1439,7 +1439,7 @@
     "@strapi/utils" "4.12.0"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-aws-s3@^4.12.0":
+"@strapi/provider-upload-aws-s3@4.12.0":
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/@strapi/provider-upload-aws-s3/-/provider-upload-aws-s3-4.12.0.tgz#f37c13690cdf564cf9f014350f4c25a88d405726"
   integrity sha512-aeKJLKGThEoxVFfjoYgAaweI1TEOagqlYWuhRvJFH9vyO+UMn9DcPAbi71Qd0VdjHQqYzsttc7o4yn320iEByw==
@@ -6932,7 +6932,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.11.2:
+pg@8.11.2:
   version "8.11.2"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.11.2.tgz#1a23f6de7bfb65ba56e4dd15df96668d319900c4"
   integrity sha512-l4rmVeV8qTIrrPrIR3kZQqBgSN93331s9i6wiUiLOSk0Q7PmUxZD/m1rQI622l3NfqBby9Ar5PABfS/SulfieQ==
