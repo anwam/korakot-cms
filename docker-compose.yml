@@ -57,12 +57,11 @@ services:
     volumes:
       - ./meili_data:/meili_data
     ports:
-      - "7700:7700"
+      - "7700"
     networks:
       - korakot-cms
     environment:
       - MEILI_MASTER_KEY=-Hmt61V9p-tyo3B9r5oIynItL_9JzTVSg5jgpFFwskY
-      - MEILI_NO_ANALYTICS=true
 
 volumes:
   korakot-cms-data:
