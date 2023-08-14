@@ -44,16 +44,11 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  graphql: {
+  meilisearch: {
     config: {
-      endpoint: "/graphql",
-      shadowCRUD: true,
-      playgroundAlways: false,
-      depthLimit: 7,
-      amountLimit: 100,
-      apolloServer: {
-        tracing: false,
-      },
-    },
-  },
+      host: "http://meilisearch:7700",
+      // Your master key or private key
+      apiKey: "-Hmt61V9p-tyo3B9r5oIynItL_9JzTVSg5jgpFFwskY",
+    }
+  }
 });

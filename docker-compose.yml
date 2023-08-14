@@ -1,12 +1,12 @@
-version: '3'
+version: "3"
 services:
   nginx:
     container_name: korakot-cms-nginx
     image: nginx:latest
     restart: unless-stopped
     ports:
-      - '80:80'
-      - '443:443'
+      - "80:80"
+      - "443:443"
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./public/uploads:/opt/app/public/uploads
@@ -36,6 +36,10 @@ services:
       AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
       AWS_REGION: ${AWS_REGION}
       AWS_BUCKET: ${AWS_BUCKET}
+    depends_on:
+      - meilisearch
+    links:
+      - meilisearch
     volumes:
       - ./config:/opt/app/config
       - ./src:/opt/app/src
@@ -44,9 +48,20 @@ services:
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
     ports:
-      - '1337:1337'
+      - "1337:1337"
     networks:
       - korakot-cms
+
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    volumes:
+      - ./meili_data:/meili_data
+    ports:
+      - "7700:7700"
+    environment:
+      - MEILI_MASTER_KEY=korakotmotors
+      - MEILI_NO_ANALYTICS=true
+
 volumes:
   korakot-cms-data:
 networks:

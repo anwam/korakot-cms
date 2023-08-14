@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "make": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "year": {
-      "type": "integer"
+      "type": "integer",
+      "pluginOptions": {}
     },
     "thumbnail": {
       "type": "media",
@@ -27,7 +29,8 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "images": {
       "type": "media",
@@ -38,19 +41,24 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "variant": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "engine_capacity": {
-      "type": "decimal"
+      "type": "decimal",
+      "pluginOptions": {}
     },
     "plate_number": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "description_md": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "slug": {
       "type": "uid",
@@ -63,26 +71,32 @@
         "pickup truck",
         "suv",
         "hatchback"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "models": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "pluginOptions": {}
     },
     "down_payment": {
-      "type": "decimal"
+      "type": "decimal",
+      "pluginOptions": {}
     },
     "installment_period": {
-      "type": "integer"
+      "type": "integer",
+      "pluginOptions": {}
     },
     "transmission": {
       "type": "enumeration",
       "enum": [
         "automatic",
         "manual"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "fuel_type": {
       "type": "enumeration",
@@ -90,20 +104,33 @@
         "gasoline",
         "diesel",
         "electric"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {}
     },
     "featured": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "pluginOptions": {}
     },
     "color": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "installment_amount": {
-      "type": "decimal"
+      "type": "decimal",
+      "pluginOptions": {}
+    },
+    "mileage": {
+      "type": "integer",
+      "pluginOptions": {}
+    },
+    "keywords": {
+      "type": "string",
+      "pluginOptions": {}
     }
   }
 }
