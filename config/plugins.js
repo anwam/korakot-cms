@@ -51,8 +51,20 @@ module.exports = ({ env }) => ({
       apiKey: "-Hmt61V9p-tyo3B9r5oIynItL_9JzTVSg5jgpFFwskY",
       car: {
         settings: {
-          filterableAttributes: ["make", "models", "car_type", "fuel_type", "transmission"],
-          sortableAttributes: ["make", "models", "car_type", "fuel_type", "transmission"],
+          filterableAttributes: [
+            "make",
+            "models",
+            "car_type",
+            "fuel_type",
+            "transmission",
+          ],
+          sortableAttributes: [
+            "make",
+            "models",
+            "car_type",
+            "fuel_type",
+            "transmission",
+          ],
         },
       },
     },

@@ -131,6 +131,15 @@
     "keywords": {
       "type": "string",
       "pluginOptions": {}
+    },
+    "sold": {
+      "type": "boolean"
+    },
+    "crossed_out_price": {
+      "type": "decimal"
+    },
+    "selling_price": {
+      "type": "decimal"
     }
   }
 }
