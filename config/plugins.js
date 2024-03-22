@@ -46,7 +46,7 @@ module.exports = ({ env }) => ({
   },
   meilisearch: {
     config: {
-      host: "http://meilisearch:7700",
+      host: env("MEILISEARCH_URL") || "http://meilisearch:7700",
       // Your master key or private key
       apiKey: "-Hmt61V9p-tyo3B9r5oIynItL_9JzTVSg5jgpFFwskY",
       car: {
