@@ -30,7 +30,7 @@ services:
 
   korakot-cms:
     container_name: korakot-cms
-    image: ghcr.io/korakot/korakot-cms:latest
+    image: ghcr.io/anwam/korakot-cms:latest
     restart: unless-stopped
     env_file: .env
     environment:
