@@ -22,16 +22,17 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.28.0",
+    "strapi-cache": "^1.4.9",
     "strapi-plugin-meilisearch": "0.13.1",
-    "strapi-plugin-placeholder": "4.4.0",
+    "strapi-plugin-placeholder": "github:Gaylord-Julien/strapi-plugin-placeholder#main",
     "styled-components": "6.1.13"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.20.8 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "volta": {
-    "node": "18.16.1",
+    "node": "18.20.8",
     "yarn": "1.22.19"
   },
   "strapi": {
