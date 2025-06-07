@@ -40,7 +40,6 @@ module.exports = ({ env }) => ({
   },
   placeholder: {
     enabled: true,
-    resolve: './node_modules/strapi-plugin-placeholder',
     config: {
       size: 10,
     },
