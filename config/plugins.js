@@ -5,8 +5,10 @@ module.exports = ({ env }) => ({
       /** @type {import('@strapi/provider-upload-aws-s3').InitOptions} */
       providerOptions: {
         s3Options: {
-          accessKeyId: env("AWS_ACCESS_KEY_ID"),
-          secretAccessKey: env("AWS_ACCESS_SECRET"),
+          credentials: {
+            accessKeyId: env("AWS_ACCESS_KEY_ID"),
+            secretAccessKey: env("AWS_ACCESS_SECRET"),
+          },
           region: env("AWS_REGION"),
           rootPath: "strapi/uploads",
           params: {
@@ -38,12 +40,7 @@ module.exports = ({ env }) => ({
       cacheGetTimeoutInMs: 1000, // Timeout for getting cached data in milliseconds (default is 1 seconds)
     }
   },
-  placeholder: {
-    enabled: true,
-    config: {
-      size: 10,
-    },
-  },
+
   // "rest-cache": {
   //   config: {
   //     provider: {

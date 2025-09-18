@@ -3,12 +3,14 @@
  * Any modifications made will be discarded.
  */
 import usersPermissions from "@strapi/plugin-users-permissions/strapi-admin";
+import strapiCache from "strapi-cache/strapi-admin";
 import meilisearch from "strapi-plugin-meilisearch/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
 renderAdmin(document.getElementById("strapi"), {
   plugins: {
     "users-permissions": usersPermissions,
+    "strapi-cache": strapiCache,
     meilisearch: meilisearch,
   },
 });

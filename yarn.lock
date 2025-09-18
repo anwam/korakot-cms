@@ -4864,10 +4864,10 @@
     "@strapi/utils" "5.9.0"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-aws-s3@5.9.0":
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-aws-s3/-/provider-upload-aws-s3-5.9.0.tgz#fc4e297927cbbfacf88ddaf25320ed49296400f2"
-  integrity sha512-5k2uXGmAjf5sTVEDWOGRbRRNfUihSsxDP6maaJNuEEDjg1+krkok37IwvCgaYD0B4E06JI/OnR4DboCeEfWy+Q==
+"@strapi/provider-upload-aws-s3@5.23.5":
+  version "5.23.5"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-aws-s3/-/provider-upload-aws-s3-5.23.5.tgz#8c065a493ed4a4a93d51de5ec17ddafe3acb9b28"
+  integrity sha512-wRHSF+e86wFmANjLX0mXHybmmajwHqHf56i4Kqbr+DZYYCcDqs9tafjYNaPhYiwYST6vVUU/cj6iVy88e97PpA==
   dependencies:
     "@aws-sdk/client-s3" "3.600.0"
     "@aws-sdk/lib-storage" "3.433.0"
@@ -6591,9 +6591,9 @@ camelize@^1.0.0:
   integrity sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==
 
 caniuse-lite@^1.0.30001669:
-  version "1.0.30001680"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001680.tgz#5380ede637a33b9f9f1fc6045ea99bd142f3da5e"
-  integrity sha512-rPQy70G6AGUMnbwS1z6Xg+RkHYPAi18ihs47GH0jcxIG7wArmPgY3XbS2sRdBbxJljp3thdT8BIqv9ccCypiPA==
+  version "1.0.30001743"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001743.tgz"
+  integrity sha512-e6Ojr7RV14Un7dz6ASD0aZDmQPT/A+eZU+nuTNfjqmRrmkmQlnTNWH0SKmqagx9PeW87UVqapSurtAXifmtdmw==
 
 capital-case@^1.0.4:
   version "1.0.4"

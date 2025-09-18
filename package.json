@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@strapi/plugin-users-permissions": "5.9.0",
-    "@strapi/provider-upload-aws-s3": "5.9.0",
+    "@strapi/provider-upload-aws-s3": "5.23.5",
     "@strapi/strapi": "5.9.0",
     "better-sqlite3": "11.8.1",
     "pg": "8.13.1",
@@ -24,7 +24,6 @@
     "react-router-dom": "6.28.0",
     "strapi-cache": "^1.4.9",
     "strapi-plugin-meilisearch": "0.13.1",
-    "strapi-plugin-placeholder": "github:Gaylord-Julien/strapi-plugin-placeholder#main",
     "styled-components": "6.1.13"
   },
   "engines": {
